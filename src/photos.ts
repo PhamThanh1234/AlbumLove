@@ -26,6 +26,7 @@ import  img23  from './image/z5916199959177_460046ec9155f7704e3ba1b9f8da9e7f.jpg
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 function assetLink(asset: string, width: number) {
+  width
   return asset;  // Trả về trực tiếp asset thay vì tạo URL
 }
 
